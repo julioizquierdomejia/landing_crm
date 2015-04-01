@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='utf-8'/>
+	<meta name="viewport" content="user-scalable=no,initial-scale=1">
+	<title>CRM Landing</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/font-face.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/categorias.css">
+
+	<script type="text/javascript" src='js/jquery-1.10.1.min.js'></script>
+
+	<script type="text/javascript" src='js/greensock/TweenMax.min.js'></script>
+	<script type="text/javascript" src='js/greensock/easing/EasePack.min.js'></script>
+	<script type="text/javascript" src="js/jquery.scrollTo.js"></script>
+	<script type="text/javascript" src='js/main.js'></script>
+
+	<!-- simpleButton -->
+	<link rel="stylesheet" type="text/css" href="css/simpleButton.css">
+	<script type="text/javascript" src='js/simpleButton.js'></script>
+
+	<script type="text/javascript">
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                    m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-48399836-2', 'auto');
+        ga('send', 'pageview');
+    </script>
+</head>
+<body>
+	<div class="warning"><img src="img/vista-vertical.jpg"></div>
+	<div class="wrapper">
+		<header>
+			<img src="img/logoHeader.jpg" id="logoHeader">
+			<div class="redesHeader">
+				<div class="simpleButtonImg">
+					<img class="base" src="img/faceBase.jpg">
+					<img class="over" src="img/faceOver.jpg">
+				</div>
+
+				<div class="simpleButtonImg">
+					<img class="base" src="img/twitterBase.jpg">
+					<img class="over" src="img/twitterOver.jpg">
+				</div>
+
+				<div class="simpleButtonImg">
+					<img class="base" src="img/googleBase.jpg">
+					<img class="over" src="img/googleOver.jpg">
+				</div>
+			</div>
+		</header>
+		<div class="conten">
+			<section class="item" id='fashionista'>
+				<div class="overAll">
+					
+					<p class='infoCat'>
+						Si sueñas con llevarte toda la tienda cada vez que vas de compras, este es el concurso para ti. Participa y podrás renovar tu closet totalmente GRATIS, además de otros increíbles premios.
+					</p>
+					<ul class="listaF">
+						<li>
+							<div class="icono"><img src="img/iconos/f1.png"></div>
+							<div class="label"><span>Vale de compras de S/. 2,000 </span> en Tiendas Oechsle</div>
+						</li>
+						<li>
+							<div class="icono"><img src="img/iconos/f2.png"></div>
+							<div class="label"><span>Asesoría de Compras con Lorena Salmón </span>Fashion Blogger de Fashionjolik</div>
+						</li>
+						<li>
+							<div class="icono"><img src="img/iconos/f3.png"></div>
+							<div class="label"><span>Cambio de look</span> con Tomyko Spa</div>
+						</li>
+						<li>
+							<div class="icono"><img src="img/iconos/f4.png"></div>
+							<div class="label"><span>Kit de Maquillaje</span> Dior, Clinique, Clarins, Sisley</div>
+						</li>
+						<li>
+							<div class="icono"><img src="img/iconos/f5.png"></div>
+							<div class="label"><span>1 Perfume</span></div>
+						</li>
+					</ul>
+					<a href="formulario.html" id="1" color='#9c5fb5' onclick="ga('send','pageview',{'page': '/opcíon-fashionistas' , 'title':'opciones-a'}); 
+">
+						Participa<i class="fa fa-angle-right fa-lg fa-fw"></i>
+					</a>
+					<div draggable="true" class="logos" id='logo1'><img src="img/logos1.png"></div>
+				</div>
+
+				<div class="titulo">
+					<img src="img/titulo1.png">
+					<h2 class="h2mobile">FASHIONISTAS</h2>
+				</div>
+
+			</section>
+
+			<section class="item" id='viajero'>
+				<div class="overAll">
+					
+					<p class='infoCat'>
+						Si disfrutas conociendo nuevos destinos cada vez que tienes vacaciones, este es tu concurso. Te regalamos un viaje todo pagado para dos personas a los mejores lugares del Perú.
+					</p>
+					<ul class="listaV">
+						<li>
+							<div class="icono"><img src="img/iconos/v1.png"></div>
+							<div class="label"><span>Pasajes aéreos para ti y 1 acompañante</span></div>
+						</li>
+						<li>
+							<div class="icono"><img src="img/iconos/v2.png"></div>
+							<div class="label"><span>Alojamiento en el Casa Andina de tu preferencia: </span>Chincha, Valle Sagrado, Cusco, Puno, Amazonas, Tumbes</div>
+						</li>
+						<li>
+							<div class="icono"><img src="img/iconos/v3.png"></div>
+							<div class="label"><span>Sistema de comidas</span> todo incluido por el fin de semana</div>
+						</li>
+					</ul>
+					<a href="formulario.html" id="2" color='#00add0' onclick="ga('send','pageview',{'page': '/opcíon-viajeros' , 'title':'opciones-b'}); 
+">
+						Participa<i class="fa fa-angle-right fa-lg fa-fw"></i>
+					</a>
+					<div class="logos" id='logo1'><img src="img/logos2.png"></div>
+				</div>
+
+				<div class="titulo">
+					<img src="img/titulo1.png">
+					<h2>VIAJEROS</h2>
+				</div>
+
+				
+
+			</section>
+
+			<section class="item" id='tech'>
+				<div class="overAll">
+					
+					<p class='infoCat'>
+						Si eres de los que siempre están al tanto de la tecnología y nuevos gadgets, este es tu concurso. Participando aquí podrás ganar los premios más innovadores totalmente GRATIS.
+					</p>
+					<ul class="listaT">
+						<li>
+							<div class="icono"><img src="img/iconos/t1.png"></div>
+							<div class="label"><span>Smart TV</span></div>
+						</li>
+						<li>
+							<div class="icono"><img src="img/iconos/t2.png"></div>
+							<div class="label"><span>Parlantes Bosse</span></div>
+						</li>
+						<li>
+							<div class="icono"><img src="img/iconos/t3.png"></div>
+							<div class="label"><span>iPhone 6</span></div>
+						</li>
+						<li>
+							<div class="icono"><img src="img/iconos/t4.png"></div>
+							<div class="label"><span>Mac book Air</span></div>
+						</li>
+						<li>
+							<div class="icono"><img src="img/iconos/t5.png"></div>
+							<div class="label"><span>Drone</span></div>
+						</li>
+					</ul>
+					<a href="formulario.html" id="3" color='#69be28' onclick="ga('send','pageview',{'page': '/opcíon-techies' , 'title':'opciones-c'}); 
+">
+						Participa<i class="fa fa-angle-right fa-lg fa-fw"></i>
+					</a>
+				</div>
+				
+				<div class="titulo">
+					<img src="img/titulo1.png">
+					<h2>TECHIES</h2>
+				</div>
+
+				
+
+			</section>
+		</div>
+		
+	</div>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>div</title>
+	<link rel="stylesheet" type="text/css" href="css/font-face.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+	
+	<style type="text/css">
+	body, html{
+		margin: 0;
+		padding: 0;
+	}
+
+	.papa{
+		width: 1024px;
+		height: 300px;
+		background-color: gray;
+		position: absolute;
+		left: 50%;
+		margin-left: -512px;
+
+	}
+
+	.hijo{
+		width: 50%;
+		height: 100px;
+		background-color: plum;	
+		float: left;
+		top: 0px;
+		left: 0px;
+	}
+
+	.hijo:first-child ~ {
+		background-color: peru;
+	}
+
+	.hijo:last-child{
+		background-color: peru;
+	}
+
+	
+
+
+	</style>
+
+</head>
+<body>
+<div class="papa">
+	<div class="hijo">Hijo</div>
+	<div class="hijo">Hijo</div>
+</div>
+
+
+</body>
+</html>

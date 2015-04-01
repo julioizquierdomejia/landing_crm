@@ -1,0 +1,428 @@
+body{
+	font-size: 22px; color: green; background-color: #FAF9FA; background-image: url('../img/fondo.gif'); background-repeat: repeat-x;
+}
+.contenidoForm{
+	height: 640px;
+	position: absolute;
+	width: 86%;
+	top: 64px;
+	left: 50%;
+	margin-left: -43%;
+	overflow: hidden;
+}
+
+#titulo{font-family:'omneslight';font-size: 1em;color: #9c5fb5;}
+#subtitulo{font-family:'omneslight';font-size: .7em;color: #009b3a;margin-top: -10px;}
+
+.fotoPerfil{display: none;}
+
+.formIbk{
+	height: auto;
+	width: 100%;
+	margin-top: 32px;
+	position: relative;
+	margin-bottom: 30px;
+}
+
+.formIbk .campo{
+	height: 40px;
+	width: 100%;
+	margin-bottom: 10px;
+	position: relative;
+}
+
+.formIbk input, .formIbk select, .formIbk .styleselect, .terminos{
+	width: 100%;
+	height: 32px;
+	border-radius: 0px;
+	box-sizing: border-box;
+	position: relative;
+	display: block;
+	padding: 5px;
+	-webkit-appearance:none;
+}
+
+.formIbk span{color: red;font-size: 14px; display: none;margin-top: 4px;}
+span.notification{display: block;}
+
+.formIbk input[type=date]::-webkit-inner-spin-button,
+.formIbk input[type=date]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+
+.formIbk input.date{
+	-webkit-appearance: none;
+	background-image: url('../img/date.jpg');
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+
+.formIbk input{
+	background-color: white;
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+	border-right: 1px solid;
+	border-left: 6px solid;
+	border-color: #A467BB;
+	
+	font-family: 'omnesmedium';
+	font-size: 16px;
+}
+
+.formIbk input.error{
+	background-color: #f5e0e7;
+	border-top: 1px solid #df1a61;
+	border-bottom: 1px solid #df1a61;
+	border-right: 1px solid #df1a61;
+	border-left: 6px solid #df1a61;
+}
+
+.styleselect{
+	background-color: white;
+	background-image: url('../img/open.jpg');
+	background-repeat: no-repeat;
+	background-position: right center;
+
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+	border-right: 1px solid;
+	border-left: 6px solid;
+	
+	border-color: #A467BB;
+	
+	float: left;		
+	position: relative;
+	
+}
+
+.styleselect .listselect{
+    position: absolute;
+    z-index: 10;
+    
+    color: black ; /*#959595;*/
+    font-size: 16px;
+    font-family: 'omnesmedium';
+    display: block;
+
+    color:#aaa;
+}
+
+.formIbk select{
+	opacity: 0;
+	
+	font-size: 16px;
+	line-height: 31px;
+}
+
+.terminos{
+	font-family: 'omneslight';
+	font-size: 14px;
+	letter-spacing: -0.5px;
+	color: #009b3a;
+	margin-top: 0px;
+	display: block;
+	margin-left: 0px;
+	margin-top: 10px;
+	margin-bottom: -16px;
+}
+
+.terminos a{
+	color: #009b3a;
+}
+
+.checkbox{
+	border: 1px solid #A467BB;
+}
+/*--------------------------------------*/
+.myCheckbox input {
+    display: none;
+}
+
+.myCheckbox span {
+    width: 11px;
+    height: 11px;
+    display: block;
+    background: url("../img/check.jpg");
+    float: left;
+    margin: 3px;
+}
+
+.myCheckbox input:checked + span {
+    background: url("../img/checkFocus.jpg");
+}
+/*---------------------------------------*/
+/*---------------------------------------*/
+
+.botones {
+	width: 80%;
+	height: 40px;
+	margin-top: -20px;
+	position: absolute;
+	left: 50%;
+	margin-left: -40%;
+}
+.botonAtras{
+	display: none;
+}
+.botonEnviar{
+	display: block;
+	width: 100%;
+	height: 100%;
+
+	background-color: white;
+	border: solid 1px;
+	border-color: #A467BB;
+	box-sizing: border-box;
+	border-radius: 12px 0 12px 0;
+	overflow: hidden;
+}
+
+.botonEnviar a{
+	text-align: center;
+	line-height: 41px;
+	font-family: 'omnesmedium';
+	font-size: 16px;
+	text-decoration: none;
+	display: block;
+	color: #A467BB;
+	height: 100%;
+}
+.botonEnviar i{
+	margin-left: 65px;
+}
+.botonEnviar a:hover{
+	background-color: #A467BB;
+	color: white;
+}
+
+@media(min-width: 768px) and (orientation:landscape){
+
+	* {
+	    border-size: border-box; /* Trust me you want this */
+	}
+
+	.contenidoForm{
+		height: 500px;
+		left: -480px;
+		margin-left: 50%;
+		position: absolute;
+		width: 960px;
+		top: 100px;
+	}
+
+	#titulo{font-family:'omneslight';font-size: 1.5em;color: #9c5fb5;}
+	#subtitulo{font-family:'omneslight';font-size: .9em;color: #009b3a;margin-top: -20px;}
+
+	.fotoPerfil{
+		height: 279px; width: 279px;float: left;position: relative;
+		margin-top: 32px;
+		display: block;
+	}
+
+	.formIbk{
+		float: left;
+		height: auto;
+		width: 70%;
+		margin-top: 32px;
+		
+	}
+
+	.formIbk span{color: red;font-size: 14px; display: none;margin-top: 6px;}
+	
+	span.notification{display: block;}
+
+	.formIbk input[type=date]::-webkit-inner-spin-button,
+	.formIbk input[type=date]::-webkit-outer-spin-button {
+	    -webkit-appearance: none;
+	}
+
+	.formIbk input.date{
+		-webkit-appearance: none;
+		background-image: url('../img/date.jpg');
+		background-repeat: no-repeat;
+		background-position: right center;
+	}
+
+	.formIbk .campo{
+		height: 60px;
+		width: 44%;
+		margin-bottom: 10px;
+		margin-right: 18px;
+		margin-left: 16px;
+		position: relative;
+		float: left;
+	}
+
+	.formIbk input, .formIbk select, .formIbk .styleselect, .terminos{
+		width: 100%;
+		height: 32px;
+		border-radius: 0px;
+		box-sizing: border-box;
+		position: relative;
+		display: block;
+	}
+
+	.formIbk input{
+		background-color: white;
+		border-top: 1px solid;
+		border-bottom: 1px solid;
+		border-right: 1px solid;
+		border-left: 6px solid;
+		border-color: #A467BB;
+		display: block;
+		font-family: 'omnesmedium';
+		font-size: 16px;
+	}
+
+	.formIbk input.error{
+		background-color: #f5e0e7;
+		border-top: 1px solid #df1a61;
+		border-bottom: 1px solid #df1a61;
+		border-right: 1px solid #df1a61;
+		border-left: 6px solid #df1a61;
+	}
+
+	.styleselect.error{
+		background-color: #f5e0e7;
+	}
+
+
+
+	.styleselect{
+		background-color: white;
+		background-image: url('../img/open.jpg');
+		background-repeat: no-repeat;
+		background-position: right center;
+
+		border-top: 1px solid;
+		border-bottom: 1px solid;
+		border-right: 1px solid;
+		border-left: 6px solid;
+		
+		border-color: #A467BB;
+		
+		float: left;		
+		position: relative;
+		
+		display: block;
+
+
+	}
+
+	.styleselect .listselect{
+	    position: absolute;
+	    z-index: 10;
+	    color: black ; /*#959595;*/
+	    font-size: 16px;
+	    font-family: 'omnesmedium';
+	    display: block;
+	    
+	    line-height: 10px;
+
+	    color:#aaa;
+	}
+
+	.formIbk select{
+		opacity: 0;
+		font-size: 16px;
+	}
+
+	.terminos{
+		font-family: 'omneslight';
+		font-size: 15px;
+		letter-spacing: -0.5px;
+		color: #009b3a;
+		margin-top: 0px;
+		display: block;
+		margin-left: 0px;
+		margin-top: 10px;
+		margin-bottom: -16px;
+		
+	}
+
+	.terminos a{
+		color: #009b3a;
+	}
+
+	.checkbox{
+		border: 1px solid #A467BB;
+	}
+	/*--------------------------------------*/
+	.myCheckbox input {
+	    display: none;
+	}
+
+	.myCheckbox span {
+	    width: 11px;
+	    height: 11px;
+	    display: block;
+	    background: url("../img/check.jpg");
+	    float: left;
+	    margin: 3px;
+	}
+
+	.myCheckbox input:checked + span {
+	    background: url("../img/checkFocus.jpg");
+	}
+	/*---------------------------------------*/
+
+	/*---------------------------------------*/
+
+	.botones {
+		position: relative;
+		display: block;
+		width: 450px;
+		height: 57px;
+		top: 8px;
+		float:left;
+		left: 50%;
+		margin-left: -9px;
+	}
+	.botonAtras{
+		width: 140px;
+		height: 57px;
+		float:left;
+		display: block;
+		overflow: hidden;
+	}
+	.botonAtras a{
+		text-align: center;
+		line-height: 56px;
+		font-family: 'omnesmedium';
+		font-size: 20px;
+		text-decoration: none;
+		display: block;
+		color: #8B8C8E;
+	}
+
+	.botonEnviar{
+		display: block;
+		width: 280px;
+		height: 57px;
+		float:right;
+
+		background-color: white;
+		border: solid 1px;
+		border-color: #A467BB;
+		box-sizing: border-box;
+		border-radius: 12px 0 12px 0;
+		overflow: hidden;
+	}
+	.botonEnviar a{
+		text-align: center;
+		line-height: 56px;
+		font-family: 'omnesmedium';
+		font-size: 20px;
+		text-decoration: none;
+		display: block;
+		color: #A467BB;
+		padding-left: 83px;
+	}
+	.botonEnviar i{
+		margin-left: 65px;
+	}
+	.botonEnviar a:hover{
+		background-color: #A467BB;
+		color: white;
+	}
+}

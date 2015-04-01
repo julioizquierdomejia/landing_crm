@@ -1,0 +1,99 @@
+.buttons{
+	width: 50%;
+	height: 46px;
+	left: 50%;
+	
+	margin-left: -25%;
+	position: absolute;
+	
+	border-radius: 10px 0 10px 0;
+	overflow: hidden;
+	box-shadow: 1px 2px 0 rgba(9,9,9,.4);
+	background-color: rgba(9,9,9,.4);
+}
+
+.buttons div{
+	width: 50%;
+	height: 100%;
+	float: left;
+	position: relative;
+}
+
+.buttons div a{
+	text-align: center;
+	line-height: 46px;
+	font-family: 'omnesmedium';
+	font-size: 16px;
+	text-decoration: none;
+	display: block;
+}
+
+.buttonBack a{
+	color: #7d7d7d;
+}
+
+.buttonNext a{
+	color: #dc0451;
+}
+
+.buttonBack{
+	background-color: #dcdcdc;
+}
+
+.buttonNext{
+	background-color: white;
+	border: solid 1px #dc0451;
+	box-sizing: border-box;
+	border-radius: 0px 0 10px 0;
+}
+
+.buttonNextActive{
+	background-color: #dc0451;
+	color: white!important;
+	border-radius: 0px 0 10px 0;
+	border: 0;
+}
+
+.buttonNextActive a{
+	color: white;
+}
+
+.button{
+	width: 300px;
+	height: 57px;
+	/*left: 50%;
+	
+	margin-left: -25%;
+	position: absolute;*/
+	padding-left: 49px;
+	
+	border-radius: 10px 0 10px 0;
+	overflow: hidden;
+	/*box-shadow: 1px 2px 0 rgba(9,9,9,.4);
+	background-color: rgba(9,9,9,.4);*/
+}
+
+.simpleButton{
+	background-color: white;
+	border: solid 1px #A467BB;
+	box-sizing: border-box;
+	border-radius: 10px 0px 10px 0px;
+}
+
+.button div{
+	width: 100%;
+	height: 100%;
+	float: left;
+	position: relative;
+}
+
+.button div a{
+	text-align: center;
+	line-height: 56px;
+	font-family: 'omnesmedium';
+	font-size: 18px;
+	text-decoration: none;
+	display: block;
+	color: #A467BB;
+}
+

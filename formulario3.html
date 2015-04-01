@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='utf-8' />
+	<meta name="viewport" content="user-scalable=no,initial-scale=1">
+	<title>Formulario</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/font-face.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<!--<link rel="stylesheet" type="text/css" href="css/formulario.css">
+	<link rel="stylesheet" type="text/css" href="css/form.css">-->
+	<link rel="stylesheet" type="text/css" href="css/formCRM.css">
+
+	<script type="text/javascript" src='js/jquery-1.10.1.min.js'></script>
+	<script type="text/javascript" src='js/greensock/TweenMax.min.js'></script>
+	<script type="text/javascript" src='js/animaForm.js'></script>
+
+	<!-- simpleButton -->
+	<link rel="stylesheet" type="text/css" href="css/simpleButton.css">
+	<script type="text/javascript" src='js/simpleButton.js'></script>
+	
+	<script type="text/javascript">
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                    m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-48399836-2', 'auto');
+        ga('send', 'pageview');
+    </script>
+
+</head>
+<body>
+	<div class="warning"><img src="img/vista-vertical.jpg"></div>
+	<div class="wrapper">
+		<header>
+			<img src="img/logoHeader.jpg" id="logoHeader">
+			<div class="redesHeader">
+				<div class="simpleButtonImg">
+					<img class="base" src="img/faceBase.jpg">
+					<img class="over" src="img/faceOver.jpg">
+				</div>
+
+				<div class="simpleButtonImg">
+					<img class="base" src="img/twitterBase.jpg">
+					<img class="over" src="img/twitterOver.jpg">
+				</div>
+
+				<div class="simpleButtonImg">
+					<img class="base" src="img/googleBase.jpg">
+					<img class="over" src="img/googleOver.jpg">
+				</div>
+			</div>
+		</header>
+		<div class="conten">
+			<div class="contenidoForm">
+				<h1 id="titulo">¡Crea tu Carnet y participa en el Concurso para</h1>
+				<h2 id="subtitulo">Solo completa los campos y asegúrate que sean los correctos para poder entregarte los premios:</h2>
+
+				<div class="fotoPerfil">
+					<img id="photo" src="img/foto.jpg" width="279" height="279">
+				</div>
+				<form class="formIbk">
+					<div class="campo">
+					<input type="text" id="name" name="nombres" placeholder='Nombres'>
+					<span>No olvides escribir tu nombre</span>	
+					<div>
+					
+					<div class="campo">
+					<input type="text" id="lastname" name="apellidos" placeholder='Apellidos'>
+					<span>No olvides escribir tu apellido</span>
+					<div>
+
+					<div class="campo">
+					<div class="styleselect">
+						<span class="listselect"></span>
+						<select name="tipoDoc" id="doc">
+							<option value="" selected="">Tipo de Documento</option>
+							<option value="dni">D.N.I.</option>
+							<option value="extranjeria">Carnet de Extranjeria</option>
+							<option value="passaporte">Pasaporte</option>
+						</select>
+					</div>
+					<span >No olvides elejir el tipo de documento</span>
+					<div>
+
+					<div class="campo">
+					<input type="text" id="numberdoc" name="numero" placeholder='Número de documento'>
+					<span>No olvides escribir tu número de documento</span>
+					<div>
+
+					<div class="campo">
+					<input type="text" id="email" name="email" placeholder='Correo electrónico'>
+					<span >No olvides escribir tu email</span>
+					<div>
+
+					<div class="campo">
+					<input type="text" id="phone" name="telefono" placeholder='Teléfono'>
+					<span>No olvides escribir tu teléfono</span>
+					<div>
+
+					<div class="campo">
+					<input class="date" id="date" type="date" name="fecha" placeholder='Fecha de Nacimiento'>
+					<span>No olvides escribir tu fecha de nacimiento</span>
+					<div>
+
+					<div class="terminos" id="terminos">
+						<label class="myCheckbox">
+						    <input type="checkbox" name="test"/>
+						    <span></span>
+						</label>
+						<label for="test">He leído y acepto los <a href="#">Términos y condiciones</a></label>
+					</div>
+				</form>
+				<div class="botones" id="botones">
+		        	<div class="botonAtras" ><a href="categorias.html" onclick="ga ( 'send', 'event', 'registro-de-datos' , 'Enviar' 'crea-tu-carnet) ;
+"><i class="fa fa-angle-double-left fa-lg fa-fw"></i>VOLVER</a></div>
+					<div class="botonEnviar"><a href="final.html">ENVIAR<i class="fa fa-angle-right fa-lg fa-fw"></i></a></div>
+		        </div>
+
+			</div>
+
+		</div>
+		
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta chartset='utf-8' />
+	<title>Bienvenido a Interbank Concursos</title>
+	<meta name="viewport" content="user-scalable=no,initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/font-face.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/inicio.css">
+
+	<script type="text/javascript" src='js/jquery-1.10.1.min.js'></script>
+	<script type="text/javascript" src='js/greensock/TweenMax.min.js'></script>
+	<!--<script type="text/javascript" src='js/animaInicio.js'></script>-->
+
+	<!-- simpleButton -->
+	<link rel="stylesheet" type="text/css" href="css/simpleButton.css">
+	<script type="text/javascript" src='js/simpleButton.js'></script>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('.simpleButton').hover(function(){
+				$(this).find($('.iconFace')).css('border-color','white')
+				
+			}, function(){
+				$(this).find($('.iconFace')).css('border-color','#0039a6')
+			})
+
+		})
+	</script>
+	<script type="text/javascript">
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+				m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-48399836-2', 'auto');
+        ga('send', 'pageview');
+    </script>
+
+</head>
+<body>
+	<div class="warning"><img src="img/vista-vertical.jpg"></div>
+	<div class="wrapper">
+		<header>
+		   <img src="img/logoHeader.jpg" id="logoHeader" width="100%" height="100%;">
+			<div class="redesHeader">
+				<div class="simpleButtonImg">
+					<img class="base" src="img/faceBase.jpg">
+					<img class="over" src="img/faceOver.jpg">
+				</div>
+
+				<div class="simpleButtonImg">
+					<img class="base" src="img/twitterBase.jpg">
+					<img class="over" src="img/twitterOver.jpg">
+				</div>
+
+				<div class="simpleButtonImg">
+					<img class="base" src="img/googleBase.jpg">
+					<img class="over" src="img/googleOver.jpg">
+				</div>
+			</div>
+		</header>
+		<div class="conten">
+		
+
+			<div class="formTodo" id="todo">
+				<h2 id="pre">BIENVENIDO A</h2>
+				<h1 id="titulo">INTERBANK CONCURSOS</h1>
+				<h3 id="subtitulo">&iexcl;Participa por premios incre&iacute;bles todos los meses&#33;</h3>
+				<h4 id="desc">Inscr&iacute;bete en el concurso que m&aacute;s te guste y participa en el sorteo de incre&iacute;bles premios.<br>&iexcl;Recuerda que puedes concursar en m&aacute;s de uno&#33;</h4>
+				
+				<div class="button" id="botones">
+					<div class="simpleButton"><a href="categorias.html" onclick="ga('send','pageview',{'page': '/ingreso' , 'title':'home'}); 
+">
+						<p class="iconFace"><i class="fa fa-facebook fa-lg fa-fw"></i></p> INGRESA <p class="iconFlecha"><i class="fa fa-angle-right fa-lg fa-fw"></i></p></a>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		
+	</div>
+
+</body>
+</html>

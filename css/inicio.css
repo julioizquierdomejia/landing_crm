@@ -1,0 +1,238 @@
+body{
+	font-size: 22px; color: green; 
+	background-color: #fff; 
+}
+
+h1{
+	font-family:'omnesmedium'; 
+	text-align: center;
+	color: #009b3a;
+	font-size: 24px;
+	font-weight: normal;
+	margin: -15px 0 0 0;
+}
+h2{
+	font-family:'omnesmedium'; 
+	text-align: center;
+	color: #009b3a;
+	font-size: 18.8px;
+	font-weight: normal;
+}
+h3{
+	font-family:'omneslight'; 
+	text-align: center;
+	color: #009b3a;
+	font-size: 20px;
+	font-weight: normal;
+}
+h4{
+	font-family:'omneslight'; 
+	text-align: center;
+	color: #535454;
+	font-size: 16px;
+	font-weight: normal;
+}
+
+
+.conten {
+	background-image: url('../img/fondoIndex.jpg');
+	background-size:cover;
+	background-position: center top;
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+
+.formTodo{
+	width: 90%;
+	/*left: 50%;
+	margin-left: -512px;*/
+	position: absolute;
+	margin-top: 50px;
+	left: 50%;
+	margin-left: -45%;
+	background-image: none;
+}
+
+.button{
+	height: 50px;	
+	border-radius: 15px 0 15px 0;
+	padding: 10px 120px 0 0;
+	position: relative;
+}
+
+.simpleButton{
+	background-color: #0039a6;
+	border: solid 1px #0039a6;
+	box-sizing: border-box;
+	border-radius: 15px 0px 15px 0px;
+}
+
+.button div{
+	width: 280px;
+	height: 100%;
+	float: left;
+	position: relative;
+	left: 50%;
+	margin-left: -50%;
+	margin-top: -10px;
+}
+
+.button div a{
+	text-align: center;
+	line-height: 50px;
+	font-family: 'omnesmedium';
+	font-size: 18px;
+	text-decoration: none;
+	display: block;
+	color: #fff;
+	font-size: 19px;
+	font-weight: 500;
+}
+
+.iconFlecha{
+	float: right;
+	margin: 0 15px 0 0;
+	font-size: 20px;
+}
+.iconFace{
+	float: left;
+	margin: 0 0 0 4px;
+	padding-right: 5px;
+	font-size: 25px;
+	border-right: solid 1px #0039a6;
+	border-color: white;
+}
+
+
+@media(min-width: 768px) and (orientation:landscape){
+
+	body{
+		font-size: 22px; color: green; 
+		background-color: #fff; 
+	}
+
+	h1{
+		font-family:'omnesmedium'; 
+		text-align: center;
+		color: #009b3a;
+		font-size: 75px;
+		font-weight: normal;
+		margin: -42px 0 -26px 0;
+	}
+	h2{
+		font-family:'omnesmedium'; 
+		text-align: center;
+		color: #009b3a;
+		font-size: 45px;
+		font-weight: normal;
+	}
+	h3{
+		font-family:'omneslight'; 
+		text-align: center;
+		color: #009b3a;
+		font-size: 45px;
+		font-weight: normal;
+		letter-spacing: -1.5px;
+	}
+	h4{
+		font-family:'omneslight'; 
+		text-align: center;
+		color: #535454;
+		font-size: 25px;
+		font-weight: normal;
+		letter-spacing: -0.8px;
+		margin-top: -17px;
+	}
+
+
+	.conten {
+		background-image: url('../img/fondoIndex.jpg'); 
+		background-size:cover;
+  		background-position: center top;
+	}
+
+	.formTodo{
+		width: 1024px;
+		left: 50%;
+		margin-left: -512px;
+		position: absolute;
+		margin-top: 150px;
+	}
+
+	.button{
+		height: 56px;
+		/*height: 57px;
+		width: 100%;
+		left: 50%;
+		
+		margin-left: -25%;
+		position: absolute;
+		padding-left: 49px;
+		overflow: hidden;*/
+		width: 160px;
+		border-radius: 15px 0 15px 0;
+		padding: 10px 120px 0 0;
+		/*margin: 0 19px 0 415px;
+		box-shadow: 1px 2px 0 rgba(9,9,9,.4);
+		background-color: rgba(9,9,9,.4);*/
+		margin: 0 auto;
+	}
+
+	.simpleButton{
+		background-color: transparent;
+		border: solid 1px #0039a6;
+		box-sizing: border-box;
+		border-radius: 15px 0px 15px 0px;
+	}
+
+	.button div{
+		width: 280px;
+		height: 100%;
+		position: relative;
+	}
+
+	.button div a{
+
+		text-align: center;
+		line-height: 56px;
+		font-family: 'omnesmedium';
+		font-size: 18px;
+		text-decoration: none;
+		display: block;
+		color: #0039a6;
+		font-size: 19px;
+		font-weight: 500;
+	}
+	.iconFlecha{
+		float: right;
+		margin: 0 15px 0 0;
+		font-size: 20px;
+	}
+	.iconFace{
+		float: left;
+		margin: 0 0 0 4px;
+		padding-right: 5px;
+		font-size: 25px;
+		border-right: solid 1px #0039a6;
+
+	}
+
+	.button div a:hover{
+		text-align: center;
+		line-height: 56px;
+		font-family: 'omnesmedium';
+		font-size: 18px;
+		text-decoration: none;
+		display: block;
+		color: #fff;
+		background-color: #0039a6; 
+		font-size: 19px;
+		font-weight: 500;
+
+		border-radius: 13px 0px 13px 0px;
+	}
+
+}

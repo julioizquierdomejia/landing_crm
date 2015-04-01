@@ -1,0 +1,286 @@
+/*html * {  box-sizing: border-box; }*/
+body{font-size: 22px; color: green; background-color: #FAF9FA; background-image: url('../img/fondo.gif'); background-repeat: repeat-x;
+}
+h1{font-family:'omnessemibold'; }
+
+.formTodo{
+	width: 86%;
+	/*left: 50%;
+	margin-left: -512px;*/
+	position: absolute;
+	margin-top: 75px;/* 25px 0 25px;*/
+	left: 7%;
+}
+
+#titulo{
+	font-family:'omneslight';
+	font-size: 1.2em;
+	color: #9c5fb5;
+	/*padding-top: 4%;
+	padding-left: 15%;*/
+}
+#subtitulo{
+	font-family:'omneslight';
+	font-size: .9em;
+	color: #009b3a;
+	margin-top: -10px;
+	/*padding-left: 15%;*/
+}
+
+.fotoPerfil{
+	width: 100%;
+	/*padding-left: 15%;
+	padding-top: 4%;*/
+
+	float: left;
+	display: block;
+}
+.fotoPerfil img{
+	/*width: 30%;*/
+	float: left;
+	display: none;
+}
+
+.terminos{
+	font-family:'omneslight';
+	font-size: .8em;
+	letter-spacing: -0.5px;
+	color: #009b3a;
+	margin-top: 383px;
+	/*padding-left: 641px;*/
+	float: left;
+	display: block;
+	left: 50%;
+	margin-left: -162px;
+	position: absolute;
+}
+.terminos a{
+	color: #009b3a;
+}
+
+.checkbox{
+	border: 1px solid #A467BB;
+}
+/*--------------------------------------*/
+.myCheckbox input {
+    display: none;
+}
+
+.myCheckbox span {
+    width: 11px;
+    height: 11px;
+    display: block;
+    background: url("../img/check.jpg");
+    float: left;
+    margin: 3px;
+}
+
+.myCheckbox input:checked + span {
+    background: url("../img/checkFocus.jpg");
+}
+/*---------------------------------------*/
+
+.botones {
+	position: relative;
+	display: block;
+	width: 280px;
+	height: 57px;
+	top: 50px;
+	float:left;
+	left: 50%;
+	margin-left: -140px;
+}
+.botonAtras{
+	display: none;
+	width: 140px;
+	height: 57px;
+	float:left;
+
+	overflow: hidden;
+}
+.botonAtras a{
+	text-align: center;
+	line-height: 56px;
+	font-family: 'omnesmedium';
+	font-size: 20px;
+	text-decoration: none;
+	display: block;
+	color: #8B8C8E;
+}
+
+.botonEnviar{
+	display: block;
+	width: 280px;
+	height: 57px;
+	float:right;
+
+	background-color: white;
+	border: solid 1px;
+	border-color: #A467BB;
+	box-sizing: border-box;
+	border-radius: 12px 0 12px 0;
+	overflow: hidden;
+}
+.botonEnviar a{
+	text-align: center;
+	line-height: 56px;
+	font-family: 'omnesmedium';
+	font-size: 20px;
+	text-decoration: none;
+	display: block;
+	color: #A467BB;
+	padding-left: 83px;
+}
+.botonEnviar i{
+	margin-left: 65px;
+}
+.botonEnviar a:hover{
+	background-color: #A467BB;
+	color: white;
+}
+/*-------------------------------------------- 1024 --------------------------------------------------------*/
+
+@media(min-width: 768px) and (orientation:landscape){
+	/*html * {  box-sizing: border-box; }*/
+	body{ font-size: 22px; color: green; background-color: #FAF9FA; background-image: url('../img/fondo.gif'); background-repeat: repeat-x; }
+	h1{ font-family:'omnessemibold';}
+
+	.formTodo{
+		width: 1024px;
+		left: 50%;
+		margin-left: -458px;
+		position: absolute;
+		margin-top: 100px;
+	}
+
+	#titulo{
+		font-family:'omneslight';
+		font-size: 1.36em;
+		color: #9c5fb5;
+		/*padding-top: 4%;
+		padding-left: 15%;*/
+	}
+	#subtitulo{
+		font-family:'omneslight';
+		font-size: .9em;
+		color: #009b3a;
+		/*margin-top: -17px;
+		padding-left: 15%;*/
+	}
+
+	.fotoPerfil{
+		width: 100%;
+		/*padding-left: 15%;*/
+		padding-top: 4%;
+
+		float: left;
+		display: block;
+	}
+	.fotoPerfil img{
+		/*width: 30%;*/
+		float: left;
+		display: block;
+	}
+
+	.terminos{
+		font-family:'omneslight';
+		font-size: .7em;
+		letter-spacing: -0.5px;
+		color: #009b3a;
+		margin-top: 238px;
+		margin-left: 126px;
+		float: left;
+		display: block;
+		width: 290px;
+	}
+	.terminos a{
+		color: #009b3a;
+	}
+
+	.checkbox{
+		border: 1px solid #A467BB;
+	}
+
+	/*--------------------------------------*/
+	.myCheckbox input {
+	    display: none;
+	}
+
+	.myCheckbox span {
+	    width: 11px;
+	    height: 11px;
+	    display: block;
+	    background: url("../img/check.jpg");
+	    float: left;
+	    margin: 3px;
+	}
+
+	.myCheckbox input:checked + span {
+	    background: url("../img/checkFocus.jpg");
+	}
+	
+	/*------------------------------------------------------------------------------------------------*/
+
+	.botones {
+		position: relative;
+		display: block;
+		width: 440px;
+		height: 57px;
+		top: 25px;
+		left: 622px;
+	}
+	
+	.botonAtras{
+		display: block;
+		width: 140px;
+		height: 57px;
+		float:left;
+
+		overflow: hidden;
+	}
+	.botonAtras a{
+		text-align: center;
+		line-height: 56px;
+		font-family: 'omnesmedium';
+		font-size: 20px;
+		text-decoration: none;
+		display: block;
+		color: #8B8C8E;
+	}
+
+	.botonEnviar{
+		display: block;
+		width: 280px;
+		height: 57px;
+		float:right;
+
+		background-color: white;
+		border: solid 1px;
+		border-color: #A467BB;
+		box-sizing: border-box;
+		border-radius: 12px 0 12px 0;
+		overflow: hidden;
+	}
+	.botonEnviar a{
+		text-align: center;
+		line-height: 56px;
+		font-family: 'omnesmedium';
+		font-size: 20px;
+		text-decoration: none;
+		display: block;
+		color: #A467BB;
+		padding-left: 83px;
+	}
+	.botonEnviar i{
+		margin-left: 65px;
+	}
+	.botonEnviar a:hover{
+		background-color: #A467BB;
+		color: white;
+	}
+}
+
+
+#light{font-family:'omneslight';}
+#medium{font-family:'omnesmedium';}
+#bold{font-family:'omnessemibold';}

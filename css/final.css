@@ -1,0 +1,354 @@
+body,html{
+	margin: 0px;
+	overflow: hidden;
+	overflow-y:hidden!important;
+}
+
+.wrapper{
+	width: 100%;
+	height: 100%;
+
+	margin: 0px auto;
+	position: absolute;
+
+	overflow: hidden;
+}
+
+.conten{
+	width: 100%;
+	height: 100%;
+	
+	background-image: url("../img/fondo.jpg");
+	background-size:cover;
+	background-position: center top;
+	overflow: auto;
+}
+
+.contenido{
+	height: 700px;
+	left: 50%;
+	margin-left: -50%;
+	position: absolute;
+	width: 100%;
+	top: 32px;
+}
+
+.datos{
+	width: 100%;
+	height: 460px;
+}
+
+.datos > div{
+	width: 100%;
+	height: 100%;
+	
+	position: relative;
+}
+
+.datos div:first-child{
+	
+}
+
+
+.imagenes{
+
+}
+
+.datos > div p{
+	width: 80%;
+}
+
+.botonCompartir{
+	border: 1px solid #d81359;
+	border-radius: 12px 0px 12px 0px;
+	display: block;
+	color: #d81359;
+	font-family: 'omnesmedium';	
+	height: 40px;
+	line-height: 40px;
+	margin: 0 auto;
+	margin-top: 6px;
+	position: relative;
+	text-decoration: none;
+	text-align: center;
+	width: 80%;
+}
+
+.botonCompartir:hover{
+	background-color: #d81359;
+	color: white;
+}
+
+.botonCompartir i{
+	margin-left: 0;
+}
+
+#parrafos{
+	top: -136px;
+	position: relative;
+	width: 100%;
+	height: 32px;
+}
+
+.parrafo1{
+	font-family: 'omneslight';
+	font-size: 18px;
+	color: #535454;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: -120px;
+	
+}
+.parrafo2{
+	font-family: 'omnessemibold';
+	font-size: 18px;
+	display: block;
+	color: #009b3a;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.mano{
+	top: 32px;
+	left: -79%;
+	position: absolute;
+	display: block;
+	width: 171%;
+}
+
+.mano img{
+	content: url('../img/manoCompleta1.png');
+	width: 100%;
+	height: auto;
+}
+
+.card{
+	margin-left: 50%;
+	top: 47px;
+	left: -42%;
+	position: absolute;
+	width: 85%;
+	height: 149px;
+	background-image: url(../img/Tarjeta2.png);
+	background-size: cover;
+	display: none;
+}
+
+.card > p{
+	color: #009b3a;
+	position: absolute;
+	top: 76px;
+	margin-left: 50%;
+	left: -25%;
+	display: block;
+}
+
+.fotoPerfil{
+	display: none;
+}
+
+.categorias{
+	display: none;
+}
+
+
+@media(min-width: 768px) and (orientation:landscape){
+	body,html{
+		margin: 0px;
+		overflow: hidden;
+	}
+
+	.wrapper{
+		width: 100%;
+		height: 100%;
+
+		margin: 0px auto;
+		position: relative;
+
+		overflow: hidden;
+	}
+	
+	.conten{
+		width: 100%;
+		height: 100%;
+		background-image: url("../img/fondo.jpg");
+		background-size:cover;
+  		background-position: center top;
+  		overflow: hidden;
+	}
+
+	.contenido{
+		height: 500px;
+		left: 49%;
+		margin-left: -490px;
+		position: absolute;
+		width: 1010px;
+		top: 132px;
+		background-image: none;
+	}
+
+	.datos{
+		width: 100%;
+		height: 350px;
+	}
+
+	.datos > div{
+		width: 50%;
+		height: 100%;
+		
+		float: left;
+		position: relative;
+	}
+
+	.datos div:first-child{
+		
+	}
+
+	.datos > div p{
+		width: 66%;
+	}
+
+	.botonCompartir{
+		display: block;
+		width: 292px;
+		height: 40px;
+		text-decoration: none;
+		text-align: center;
+		line-height: 40px;
+		border: 1px solid #d81359;
+		border-radius: 12px 0px 12px 0px;
+		position: relative;
+		margin-left: 55px;
+		margin-top: 16px;
+		color: #d81359;
+		line-height: 40px;
+		font-family: 'omnesmedium';	
+	}
+
+	.botonCompartir:hover{
+		background-color: #d81359;
+		color: white;
+	}
+
+	.botonCompartir i{
+		margin-left: 32px;
+	}
+
+	#parrafos{
+		top: 0;
+		position: relative;
+		width: 45%;
+	}
+	.parrafo1{
+		font-family: 'omneslight';
+		font-size: 25px;
+		text-decoration: none;
+		display: block;
+		margin: 68px 50px 0px 55px; 
+		color: #535454;
+		position: relative;
+	}
+	.parrafo2{
+		font-family: 'omnessemibold';
+		font-size: 25px;
+		text-decoration: none;
+		display: block;
+		margin: 15px 120px 0px 55px; 
+		color: #009b3a;
+	}
+
+	.mano{
+		top: 177px;
+		left: -172px;
+		position: absolute;
+		display: block;
+		width: 75%;
+	}
+
+	.mano img{
+		content: url('../img/manoCompleta.png');
+		width: 100%;
+		height: auto;
+	}
+
+	.manoCompleta{
+		display: none;
+	}
+
+	.card{
+		margin-left: 0;
+		top: 47px;
+		left: 122px;
+		position: absolute;
+		width: 380px;
+		height: 210px;
+		background-image: url(../img/Tarjeta.png);
+		display: block;
+	}
+
+	.card > p{
+		color: #009b3a;
+		position: absolute;
+		top: 83px;
+		left: 191px;
+		margin-left: 0;
+	}
+
+	.fotoPerfil{
+		width: 120px;
+		height: 120px;
+		position: absolute;
+		top: 26px;
+		left: 28px;
+		overflow: hidden;
+		background-image: url(../img/fotoPerfil.jpg);
+		background-size: cover;
+		display: block;
+	}
+
+	.categorias{
+		width: 100%;
+		height: 120px;
+		
+		position: relative;
+		display: block;
+	}
+
+	.categorias > ul{
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		position: absolute;
+		width: 800px;
+		display: block;
+		right: 96px;
+		top: 10px;
+		
+	}
+
+	.categorias ul > li{
+		float: left;
+		display: block;
+		margin: 0 0 0 47px;
+		width: 200px;
+		height: 70px;
+	}
+
+	.categorias ul > li > div{
+		width: 200px;
+		height: 70px;
+		position: absolute;
+	}
+
+	.categorias ul > li > div > img{
+		width: 200px;
+		height: 70px;	
+	}
+
+	.overBtn{
+		display: none;
+	}
+
+	
+
+}
